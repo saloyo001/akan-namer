@@ -88,11 +88,11 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## Live Demo
 
-`https://saloyo001.github.io/akan-namer/`
+https://saloyo001.github.io/akan-namer/
 
 ## Repository
 
-`https://github.com/saloyo001/akan-namer`
+https://github.com/saloyo001/akan-namer
 
 ## License
 
