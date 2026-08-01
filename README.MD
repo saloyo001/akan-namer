@@ -88,16 +88,12 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## Live Demo
 
-Add your GitHub Pages link here after publishing:
-
-`https://your-username.github.io/akan-name-generator/`
+`https://saloyo001.github.io/akan-namer/`
 
 ## Repository
 
-Replace with your GitHub repository link:
-
-`https://github.com/your-username/akan-name-generator`
+`https://github.com/saloyo001/akan-namer`
 
 ## License
 
-This project is for educational purposes.
+copyright @ saloyo enterprise
