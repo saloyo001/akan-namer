@@ -13,7 +13,7 @@ const weekDays = [
 document.getElementById("arcana").addEventListener("submit", function (event) {
 
     event.preventDefault();
-
+    
     let birthdate = document.getElementById("birthdate").value;
     let gender = document.querySelector('input[name="gender"]:checked');
 
