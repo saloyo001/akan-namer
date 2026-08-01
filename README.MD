@@ -88,7 +88,7 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## Live Demo
 
-`https://your-username.github.io/akan-name-generator/`
+`https://saloyo001.github.io/akan-namer/`
 
 ## Repository
 
@@ -96,4 +96,4 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## License
 
-This project is for educational purposes
+copyright @ saloyo enterprise
