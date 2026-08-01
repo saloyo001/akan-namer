@@ -92,7 +92,7 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## Repository
 
-`https://github.com/your-username/akan-name-generator`
+`https://github.com/saloyo001/akan-namer`
 
 ## License
 
