@@ -90,10 +90,6 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 https://saloyo001.github.io/akan-namer/
 
-## Repository
-
-https://github.com/saloyo001/akan-namer
-
 ## License
 
 copyright @ saloyo enterprise
