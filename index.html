@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Namer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Akan Name Generator</h1>
+      <p><b>WELCOME!</b></p>
+    <p>
+        Get To Discover Your Akan Name.
+    </p>
+
+    <form id="arcana">
+
+    <div class="form">
+        <label for="birthdate">📅 Select Your Birth Date</label>
+        <input
+            type="date"
+            id="birthdate"
+            name="birthdate"
+            
+        >
+    </div>
+
+    <div class="form">
+        <label>👤 Gender</label>
+
+        <div class="gender">
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+        </div>
+    </div>
+
+    <button type="submit">
+        Generate Akan Name
+    </button>
+    
+    <button type="button" id="resetBtn">
+    Reset Form
+</button>
+
+</form>
+
+
+    <div id="result"></div>
+
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>

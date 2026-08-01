@@ -1,0 +1,128 @@
+
+:root{
+    --primary:#2563EB;
+    --secondary:#FBBF24;
+    --background1:#0F172A;
+    --background2:#1E3A8A;
+    --text:#FFFFFF;
+    --card:#FFFFFF;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        var(--background1),
+        var(--background2)
+    );
+}
+
+.container{
+    width:450px;
+    background:var(--card);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+h1{
+    text-align:center;
+    color:var(--primary);
+    margin-bottom:10px;
+}
+
+p{
+    text-align:center;
+    color:#444;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+    color:var(--primary);
+}
+
+input[type="date"]{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    border:2px solid var(--primary);
+    border-radius:8px;
+    font-size:16px;
+}
+
+.gender{
+    margin-top:15px;
+    display:flex;
+    justify-content:space-around;
+}
+
+button{
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+
+    background:var(--primary);
+    color:white;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:var(--secondary);
+    color:black;
+}
+
+#result{
+    margin-top:25px;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+
+    background:var(--secondary);
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+}
+
+#result strong{
+    color:var(--primary);
+    font-size:22px;
+}
+.form{
+    margin-bottom:20px;
+}
+
+input[type="date"]{
+    width:100%;
+    padding:12px;
+    border:2px solid var(--primary);
+    border-radius:8px;
+    font-size:16px;
+    margin-top:8px;
+}
+
+input[type="date"]:focus{
+    outline:none;
+    border-color:var(--secondary);
+    box-shadow:0 0 10px rgba(251,191,36,0.5);
+}
