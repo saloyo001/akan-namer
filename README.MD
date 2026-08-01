@@ -88,13 +88,9 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## Live Demo
 
-Add your GitHub Pages link here after publishing:
-
 `https://your-username.github.io/akan-name-generator/`
 
 ## Repository
-
-Replace with your GitHub repository link:
 
 `https://github.com/your-username/akan-name-generator`
 
