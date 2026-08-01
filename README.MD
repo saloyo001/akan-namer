@@ -96,4 +96,4 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## License
 
-This project is for educational purposes.
+This project is for educational purposes
