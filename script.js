@@ -43,7 +43,7 @@ document.getElementById("arcana").addEventListener("submit", function (event) {
         "<p><strong>Birth Date:</strong> " + birthdate + "</p>" +
         "<p><strong>Day Born:</strong> " + weekDays[dayIndex] + "</p>" +
         "<p><strong>Akan Name:</strong> " + akanName + "</p>";
-
+    
 });
 
 document.getElementById("resetBtn").addEventListener("click", function () {
