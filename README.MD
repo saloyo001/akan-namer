@@ -63,15 +63,17 @@ Open the project in Visual Studio Code, then open `index.html` in your web brows
 
 ## Akan Names
 
-| Day       | Male    | Female |
-| --------- | ------- | ------ |
-| Sunday    | Kwasi   | Akosua |
-| Monday    | Kwadwo  | Adwoa  |
-| Tuesday   | Kwabena | Abenaa |
-| Wednesday | Kwaku   | Akua   |
-| Thursday  | Yaw     | Yaa    |
-| Friday    | Kofi    | Afua   |
-| Saturday  | Kwame   | Ama    |
+In Akan culture, a person's day name is given based on the day of the week they were born. Each day name is traditionally associated with certain qualities or characteristics.
+
+| Day       | Male Name | Female Name | English Meaning                  |
+| --------- | --------- | ----------- | -------------------------------- |
+| Sunday    | Kwasi     | Akosua      | Creative and confident           |
+| Monday    | Kwadwo    | Adwoa       | Peaceful and calm                |
+| Tuesday   | Kwabena   | Abenaa      | Brave and determined             |
+| Wednesday | Kwaku     | Akua        | Wise and curious                 |
+| Thursday  | Yaw       | Yaa         | Strong and courageous            |
+| Friday    | Kofi      | Afua        | Kind and caring                  |
+| Saturday  | Kwame     | Ama         | A natural leader and responsible |
 
 ## Known Issues
 
