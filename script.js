@@ -10,6 +10,17 @@ const weekDays = [
     "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 ];
 
+
+const meanings = [
+    "Creative and confident.",
+    "Peaceful and calm.",
+    "Brave and determined.",
+    "Wise and curious.",
+    "Strong and courageous.",
+    "Kind and caring.",
+    "A natural leader and responsible."
+];
+
 document.getElementById("arcana").addEventListener("submit", function (event) {
 
     event.preventDefault();
@@ -27,7 +38,6 @@ document.getElementById("arcana").addEventListener("submit", function (event) {
         return;
     }
 
-    
     let parts = birthdate.split("-");
 
     let year = Number(parts[0]);
@@ -37,7 +47,6 @@ document.getElementById("arcana").addEventListener("submit", function (event) {
     let CC = Math.floor(year / 100);
     let YY = year % 100;
 
-    
     let dayIndex = (
         (Math.floor((5 * CC) / 4) - (2 * CC) - 1) +
         Math.floor((5 * YY) / 4) +
@@ -45,7 +54,6 @@ document.getElementById("arcana").addEventListener("submit", function (event) {
         day
     ) % 7;
 
-    
     if (dayIndex < 0) {
         dayIndex = dayIndex + 7;
     }
@@ -62,7 +70,8 @@ document.getElementById("arcana").addEventListener("submit", function (event) {
         "<h2>Your Akan Name</h2>" +
         "<p><strong>Birth Date:</strong> " + birthdate + "</p>" +
         "<p><strong>Day Born:</strong> " + weekDays[dayIndex] + "</p>" +
-        "<p><strong>Akan Name:</strong> " + akanName + "</p>";
+        "<p><strong>Akan Name:</strong> " + akanName + "</p>" +
+        "<p><strong>Meaning:</strong> " + meanings[dayIndex] + "</p>";
 
 });
 
