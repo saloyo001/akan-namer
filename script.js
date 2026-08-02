@@ -23,12 +23,32 @@ document.getElementById("arcana").addEventListener("submit", function (event) {
     }
 
     if (gender == null) {
-        alert("We don't do non-binary, pick one.");
+        alert("Please choose a gender.");
         return;
     }
 
-    let date = new Date(birthdate);
-    let dayIndex = date.getDay();
+    
+    let parts = birthdate.split("-");
+
+    let year = Number(parts[0]);
+    let month = Number(parts[1]);
+    let day = Number(parts[2]);
+
+    let CC = Math.floor(year / 100);
+    let YY = year % 100;
+
+    
+    let dayIndex = (
+        (Math.floor((5 * CC) / 4) - (2 * CC) - 1) +
+        Math.floor((5 * YY) / 4) +
+        Math.floor((26 * (month + 1)) / 10) +
+        day
+    ) % 7;
+
+    
+    if (dayIndex < 0) {
+        dayIndex = dayIndex + 7;
+    }
 
     let akanName = "";
 
@@ -43,7 +63,7 @@ document.getElementById("arcana").addEventListener("submit", function (event) {
         "<p><strong>Birth Date:</strong> " + birthdate + "</p>" +
         "<p><strong>Day Born:</strong> " + weekDays[dayIndex] + "</p>" +
         "<p><strong>Akan Name:</strong> " + akanName + "</p>";
-    
+
 });
 
 document.getElementById("resetBtn").addEventListener("click", function () {
