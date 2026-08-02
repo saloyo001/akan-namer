@@ -41,16 +41,17 @@ akan-name-generator/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/akan-name-generator.git
+git clone git@github.com:saloyo001/akan-namer.git
 ```
 
 Open the project folder:
 
 ```bash
-cd akan-name-generator
+cd akan-namer
 ```
 
 Open the project in Visual Studio Code, then open `index.html` in your web browser.
+
 
 ## How to Use
 
